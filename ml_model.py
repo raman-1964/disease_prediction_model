@@ -10,9 +10,9 @@ from streamlit_option_menu import option_menu
 
 
 # loading the saved models
-diabetes_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/diabetes.sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/heartDisease.sav','rb'))
-parkinsons_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/parkinsons.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/diabetes/diabetes.sav', 'rb'))
+heart_disease_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/heart/heartDisease.sav','rb'))
+parkinsons_model = pickle.load(open('C:/Users/RAMAN KUMAR/Pictures/assign/ml/modal/parkinson/parkinsons.sav', 'rb'))
 
 
 # sidebar for navigation
